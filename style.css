@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:gray;
+}
+.heading{
+    margin-top: 3px;
+    color: rgb(153, 22, 65);
+    font-weight: 550;
+    text-shadow:1px 2px 3px rgb(136, 9, 136);
+    margin-left: 40%;
+    border: 3px solid red;
+    width: 300px;
+    height: 70px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    padding: 5px;
+}
+/* Store advert CSS */
+.info{
+    color: black;
+    font-weight: 550;
+    text-shadow:1px 2px 3px rgb(136, 9, 136);
+    border: 6px solid rgb(12, 83, 12);
+    position: relative;
+    z-index: 0;
+    height: 450px;
+    width: 99%;
+}
+.address{
+    border: 3px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(223, 11, 223);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    text-align: center;
+    font-size: 22px;
+}
+.image{
+    border: 3px solid red;
+    height: 175px;
+    width: 175px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(223, 11, 223);
+    position: absolute;
+    top: 2px;
+    right:15px;
+}
+.greet{
+    border: 3px solid red;
+    height: 175px;
+    width: 175px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(223, 11, 223);
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+    text-align: left;
+    font-size: 19px;
+    
+}
+.rate{
+    text-align: center;
+    border: 3px solid red;
+    height: 170px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(223, 11, 223);
+    position: absolute;
+    right: 18px;
+    bottom: 25px;
+}
+#sub{
+    background-color: red;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid red;
+    width: 100px;
+}
+#iborder{
+    margin: 35px 10px 30px 10px;
+    border: 2px solid rgb(37, 37, 37);
+    border-top: none;
+    width: 150px ;
+    height: 90px;
+}
+/* Item list CSS */
+
+.container{
+    position: relative;
+    z-index: 0;
+    border: 4px solid rgb(110, 10, 110);
+    background-color: rgb(26, 100, 26);
+    width: 620px;
+    height: 450px;
+    margin: 15px 275px 15px 350px;
+}
+.align{
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+}
+.welcome{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.items{
+    display: flex;
+}
+.veg_fruits{
+    font-style: italic;
+    padding-top: 15px;
+    justify-content: left;
+    background-color: rgb(204, 190, 111);
+    border:1px solid rgb(204, 190, 111);
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right:3px;
+    text-align: center;
+    font-size: larger;
+    width:50%;
+    height:175px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.other_items{
+    font-style: italic;
+    padding-top: 15px;
+    background-color: rgb(204, 190, 111);
+    border:1px solid rgb(204, 190, 111);
+    text-align: center;
+    font-size: larger;
+    width: 98%;
+    height:180px;
+    margin: 5px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.offer{
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    left: 30%;
+    z-index: 1;
+    width: 350px;
+    height: 70px;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(223, 11, 223) ;
+    background-color: rgb(197, 255, 36);
+}
+.d{
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(180, 57, 57);
+    font-style: italic;
+    font-size: 20px;
+}
